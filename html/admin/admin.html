@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>米农后台管理系统</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <link rel="stylesheet" href="dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/admin_css.css">
+    <script src="dist/js/jquery.js"></script>
+
+</head>
+<body>
+<div class="motaikuang">
+    <div class="innerm">
+        <input type="text" class="change" placeholder="请输入修改的内容">
+        <input type="button" class="srue" value="确定">
+    </div>
+</div>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="" alt="米农log">
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="#">米农</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown nologin">
+                    <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">登入 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">注册</a></li>
+                        <li><a href="login.html">登录</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown yeslogin">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown yhm" style="line-height: 50px">陈永昌</li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">out <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="zhuxiao"><a href="#">注销</a></li>
+                            <li class="clearall"><a href="login.html">安全退出</a></li>
+                        </ul>
+                    </li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container contentbody">
+    <div class="row">
+        <div class="col-md-2 content-left col-xs-12">
+            <ul class="nav nav-pills nav-stacked">
+
+                <li><a href="#" disabled="false">米农后台管理系统</a></li>
+                <li name="person" role="presentation">
+
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false" name="gerenxinxi">个人信息<span class="caret"></span></a>
+                    <ul class="xiugaithis nav nav-pills nav-stacked">
+                        <li role="presentation"><a href="#">修改个人信息</a></li>
+                        <li role="presentation"><a href="#">修改个人密码</a></li>
+                    </ul>
+
+                </li>
+
+                <li name="guanliyonghu" role="presentation">
+
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false" name="guanliyonghu">管理用户 <span class="caret"></span></a>
+                    <ul class="xiugaithis nav nav-pills nav-stacked">
+                        <li role="presentation"><a href="#">增加用户</a></li>
+                        <li role="presentation"><a href="#">修改用户</a></li>
+                        <li role="presentation"><a href="#">删除用户</a></li>
+                        <li role="presentation"><a href="#">查询用户</a></li>
+                    </ul>
+
+                </li>
+
+                <li role="presentation">
+
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">管理食谱<span class="caret"></span></a>
+                    <ul class="xiugaithis nav nav-pills nav-stacked">
+                        <li role="presentation"><a href="#">增加食谱</a></li>
+                        <li role="presentation"><a href="#">修改食谱</a></li>
+                        <li role="presentation"><a href="#">查询食谱</a></li>
+                        <li role="presentation"><a href="#">删除食谱</a></li>
+                    </ul>
+                </li>
+
+                <li role="presentation">
+
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">管理食材<span class="caret"></span></a>
+                    <ul class="xiugaithis nav nav-pills nav-stacked">
+                        <li role="presentation"><a href="#">增加食材</a></li>
+                        <li role="presentation"><a href="#">修改食材</a></li>
+                        <li role="presentation"><a href="#">查询食材</a></li>
+                        <li role="presentation"><a href="#">删除食材</a></li>
+                    </ul>
+                </li>
+
+                <li role="presentation">
+                    <a href="#" class="dropdown-toggle">管理地区<span class="caret"></span></a>
+                    <ul class="xiugaithis nav nav-pills nav-stacked">
+                        <li role="presentation"><a href="#">增加地区</a></li>
+                        <li role="presentation"><a href="#">修改地区</a></li>
+                        <li role="presentation"><a href="#">查询地区</a></li>
+                        <li role="presentation"><a href="#">删除地区</a></li>
+                    </ul>
+
+                </li>
+
+                <li role="presentation">
+                    <a href="#" class="dropdown-toggle">管理动态<span class="caret"></span></a>
+                    <ul class="xiugaithis nav nav-pills nav-stacked">
+                        <li role="presentation"><a href="#">修改动态</a></li>
+                        <li role="presentation"><a href="#">查询动态</a></li>
+                        <li role="presentation"><a href="#">删除动态</a></li>
+                    </ul>
+
+                </li>
+
+                <li role="presentation">
+                    <a href="#" class="dropdown-toggle">管理论坛<span class="caret"></span></a>
+                    <ul class="xiugaithis nav nav-pills nav-stacked">
+                        <li role="presentation"><a href="#">增加主题</a></li>
+                        <li role="presentation"><a href="#">修改主题</a></li>
+                        <li role="presentation"><a href="#">删除主题</a></li>
+                        <li role="presentation"><a href="#">查询动态</a></li>
+                        <li role="presentation"><a href="#">删除动态</a></li>
+                    </ul>
+
+                </li>
+            </ul>
+        </div>
+
+        <!--中间-->
+        <div class="col-md-7 center-b">
+            <div class="row">
+                <div class="col-md-3 smallnva">
+                    <span>增加用户&nbsp</span>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="input-group search">
+                            <input type="text" class="form-control" placeholder="请输入">
+                            <div class="btn-search">
+                                <button class="search">搜索</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 bignva">
+                    <span>管理用户</span>
+                </div>
+            </div>
+
+            <div class="row content-body" style="margin-top: 50px;">
+
+                <iframe src="gerenxinxi.html" frameborder="0" style="width: 100%;height: 100%"></iframe>
+
+            </div>
+        </div>
+
+        <!--右边-->
+        <div class="col-md-2" style="background: #2aabd2">
+            left
+        </div>
+    </div>
+</div>
+
+<script src="js/ajax.js"></script>
+<script src="js/admin_js.js"></script>
+</body>
+</html>

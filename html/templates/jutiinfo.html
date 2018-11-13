@@ -1,0 +1,85 @@
+﻿<script src="../static/js/uuconf.js"></script>
+<link rel="stylesheet" href="../static/css/jutiinfo.css">
+<script src="../static/js/utils.js"></script>
+<div class="ifa">
+   
+</div>
+<script >
+    document.querySelector('body').onmousemove=function(e) {
+        parent.document.querySelector('.motai').style.display='block';
+	};
+    document.querySelector('body').onmouseleave=function(e) {
+		parent.document.querySelector('.motai').style.display='none';
+	};
+
+
+
+
+
+
+    window.onload=function () {
+        good={
+            // "name":sessionStorage.getItem('food_name')
+            food_name:sessionStorage.getItem('food_name')
+
+        };
+        info()
+
+
+
+    };
+
+    function info() {
+        let ifa=document.querySelector('.ifa');
+        ajax('GET', 'http://106.14.198.191:8000/cookbook/shicai/', good, function (res) {
+            for(let r of res){
+                ifa.innerHTML=`
+                <div class="jutititle">
+    ${r.foodname}百科知识
+    </div>
+    <div class="intro-cb">
+        <h3>${r.foodname}介绍</h3>
+        <p>${r.foodintro} </p>
+    </div>
+    <div class="intro-cb">
+        <h3>营养价值</h3>
+        <p>${r.yingyangjiazhi}</p>
+    </div>
+    <div class="intro-cb">
+        <h3>食用效果</h3>
+        <p>${r.shiyongxiaguo}</p>
+    </div>
+    <div class="intro-cb">
+        <h3>${r.foodname}的食用禁忌</h3>
+        <p></p>
+    </div>
+    <div class="intro-cb">
+        <h3>${r.foodname}的选购</h3>
+        <p>${r.xuangou}</p>
+    </div>
+    <div class="intro-cb">
+        <h3>${r.foodname}的存储</h3>
+        <p>${r.chucun}</p>
+    </div>
+    <div class="intro-cb">
+        <h3>${r.foodname}的烹饪小技巧</h3>
+        <p>${r.xiaojiqiao}</p>
+    </div>
+
+                `
+
+            }
+
+        });
+
+
+    }
+
+
+
+
+
+
+
+</script>
+

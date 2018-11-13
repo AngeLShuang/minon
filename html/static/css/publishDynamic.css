@@ -1,0 +1,332 @@
+ul,ol,li {
+    list-style-type: none
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+    outline: 0
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.container{
+    font-size: 12px;
+    margin-top: 80px;
+}
+
+/*发布动态 begin*/
+.main{
+    margin: auto;
+    width: 1002px;
+}
+/*发布动态头部 begin*/
+.main .dy-header{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: dotted 1px rgba(176, 176, 176, 0.65);
+}
+
+.main .dy-header .dy-back{
+    width: 100px;
+    height: 100%;
+    line-height: 45px;
+    display: block;
+    font-size: 13px;
+    cursor: pointer;
+    color: #FFCE00;
+}
+
+.main .dy-header .dy-back .dy-span{
+    width: 28px;
+    height: 20px;
+    display: table-cell;
+    vertical-align: middle;
+    background-image: url("../image/leftArrow.svg");
+    background-repeat: no-repeat;
+    background-position: 4px 12px;
+}
+
+.main .dy-header .dy-back .dy-span2{
+    display: table-cell;
+}
+
+.main .dy-header h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main .dy-header .dy-update{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border: solid 1px #ebebeb;
+    margin-top: 13px;
+    color: #b5b5b5;
+    background-color: #ebebeb;
+    line-height: 30px;
+}
+
+.main .dy-header .dy-update:hover{
+    background-color: #e1e1e1;
+    color: white;
+    border: none;
+}
+/*发布动态头部 end*/
+
+/*发布动态主题 begin*/
+.main .dy-main{
+    width: 650px;
+    margin: auto;
+}
+
+/*添加标签 begin*/
+.main .dy-flag{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.bordnone{
+    width: 75% !important;
+    border: none;
+    outline: none;
+}
+
+.pic{
+    float: right;
+    top: -20px;
+}
+
+.fw{
+    font-size:13px;
+    color: rgba(162,220,240,0.97);
+}
+/*!*添加标签文本框 begin*!*/
+/*.main .dy-main .dy-flag .add-flag{*/
+    /*width: 306px;*/
+    /*height: 35px;*/
+    /*margin: 10px 0px;*/
+/*}*/
+
+/*.main .dy-main .dy-flag .add-flag .flag-text{*/
+    /*position: relative;*/
+/*}*/
+
+/*.main .dy-main .dy-flag .add-flag .flag-text .addflagPic{*/
+    /*display: block;*/
+    /*position: absolute;*/
+    /*right: 10px;*/
+    /*background-image: url("../image/icon-sprites_style2.png");*/
+    /*margin-top: 10px;*/
+    /*margin-left: 10px;*/
+    /*width: 11px;*/
+    /*height: 11px;*/
+    /*background-position: -261px -2132px;*/
+    /*vertical-align: top;*/
+/*}*/
+
+/*.main .dy-main .dy-flag .add-flag .flag-text .flag-input{*/
+    /*width: 300px;*/
+    /*margin-right: 10px;*/
+    /*resize: none;*/
+    /*overflow: hidden;*/
+    /*vertical-align: middle;*/
+    /*height: 29px;*/
+    /*line-height: 29px;*/
+    /*border: 1px solid #e2e2e2;*/
+
+/*}*/
+/*!*添加标签文本框 end*!*/
+
+/*添加标签显示 begin*/
+.main .dy-main .dy-flag .add-flag .input-list{
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    margin-top: 10px;
+    min-width: 680px;
+    margin-bottom: 10px;
+}
+/*添加标签显示 end*/
+/*添加标签 end*/
+
+/*上传图片 begin*/
+.main .dy-main .dy-upload{
+    width: 100%;
+}
+
+/*上传图片的按钮 begin*/
+.main .dy-main .dy-upload .dy-ul-list{
+    width: 560px;
+}
+
+.main .dy-main .dy-upload .upload-pics{
+    position: relative;
+    width: 98px;
+    height: 98px;
+    border: 1px dashed #ccc;
+}
+
+.main .dy-main .dy-upload .upload-pics .dy-upload-a{
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.main .dy-main .dy-upload .upload-pics .dy-upload-a .dy-i{
+    width: 18px;
+    height: 18px;
+    margin-left: -9px;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    vertical-align: top;
+    background-image: url("../image/icon-sprites_style2.png");
+    background-position: -348px -952px;
+}
+
+.main .dy-main .dy-upload .upload-pics .dy-upload-a .dy-up-span{
+    position: absolute;
+    display: block;
+    top: 58px;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.main .dy-main .dy-upload .upload-pics .dy-upload-a .up-input{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+/*上传图片的按钮 begin*/
+
+/*上传按钮的提示 begin*/
+.main .dy-main .dy-upload .dy-up-warn{
+    color: #999;
+    letter-spacing: .5px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+/*上传按钮的提示 end*/
+/*上传图片 end*/
+
+/*填写内容 begin*/
+.main .dy-main .dy-content{
+    width: 100%;
+}
+
+.main .dy-main .dy-content .simditor{
+    position: relative;
+    border: 1px solid #e2e2e2;
+    width: 630px;
+    font-size: 13px;
+}
+
+/*内容工具栏 begin*/
+.main .dy-main .dy-content .simditor .simditor-toolbar{
+    top: 50px;
+    width: auto;
+    left: 260.6px;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    max-width: 798px;
+}
+
+.main .dy-main .dy-content .simditor .simditor-toolbar ul{
+    display: flex;
+}
+
+.main .dy-main .dy-content .simditor .simditor-toolbar ul li{
+    position: relative;
+    display: block;
+    font-size: 0;
+}
+
+.main .dy-main .dy-content .simditor .simditor-toolbar ul li .toolbar-item{
+    width: 40px ;
+    display: block;
+    height: 40px;
+    outline: 0;
+    color: #333;
+    font-size: 15px;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+}
+
+.main .dy-main .dy-content .simditor textarea{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.6;
+    border: 0;
+    min-height: 300px;
+    outline: 0;
+    resize: none;
+}
+/*内容工具栏 end*/
+/*填写内容 end*/
+/*发布动态主题 end*/
+/*发布动态 end*/
+
+.img-circle{
+    height: 19px;
+    width: 19px;
+    object-fit: cover;
+}
+
+.delepic {
+    position: absolute;
+    left: 72%;
+    top: 0px;
+}
+
+.showPic{
+    width: 100%;
+    height: 100%;
+    margin-left: 40px;
+}
+
+.lh{
+    height:200px;
+}
+
+.objextfit{
+    object-fit: cover;
+}
+.positionRela{
+    position: relative;
+}
+
+
+.displaynone{
+    display: none;
+}
+
+.displaynblock{
+    display: block;
+}
+
+.bordnone{
+    width: 75% !important;
+    border: none;
+    outline: none;
+}
+
+.houxiede{
+    margin-top: 15px;
+}
+
+.houmian{
+     margin-top: -4px;
+}

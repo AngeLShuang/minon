@@ -1,0 +1,393 @@
+//[
+//  {
+//    "id":1,
+//    "firstcomment":[
+//      {
+//        "id":5
+//      },
+//      {
+//        "id":3,
+//        "firstcomment":[
+//          {
+//            "id":4
+//          }
+//        ]
+//      }
+//    ]
+//  },
+//  {
+//    "id":2
+//  }
+//]
+
+
+[
+  [
+    {
+      "id": 22,
+      "content": "4444",
+      "time":"__2018,
+      10,
+      17",
+      "dynamicId": 2,
+      "firstcomment": 4,
+      "userPhone": "17775203287"
+    },
+    {
+      "id": 23,
+      "content": "122
+      2
+      ", "
+      time
+      ":"__2018, 10, 17", "
+      dynamicId
+      ": 2, "
+      firstcomment
+      ": 4, "
+      userPhone
+      ": "
+      18896551937
+      "}, {"
+      id
+      ": 26, "
+      content
+      ": "
+      1111
+      ", "
+      time
+      ":"__20
+      18,
+      10,
+      17",
+      "dynamicId": 2,
+      "firstcomment": 4,
+      "userPhone": "18896551937"
+    }
+  ],
+  {
+    "id": 5,
+    "content": "333333333",
+    "time":"__2018,
+    10,
+    16",
+    "dynamicId
+    ": 2, "
+    firstcomment
+    ": None, "
+    userPhone
+    ": "
+    18896551937
+    "}, {"
+    id
+    ": 6, "
+    content
+    ": "
+    哒哒哒哒哒的
+    ", "
+    time
+    ":"__2018, 10, 16", "
+    dynamicId
+    ": 2, "
+    firstcommen
+    t
+    ": None, "
+    userPhone
+    ": "
+    18896551937
+    "}, [{"
+    id
+    ": 20, "
+    content
+    ": "
+    3333
+    ", "
+    time
+    ":"__2018, 10, 17", "
+    dynamicId
+    ": 2, "
+    firstcomment
+    ": 7, "
+    userPhone
+    ": "
+    180
+    36387467
+    "}], [{"
+    id
+    ": 21, "
+    content
+    ": "
+    4444
+    ", "
+    time
+    ":"__2018, 10, 17", "
+    dynamicId
+    ": 2, "
+    firstcomment
+    ": 8, "
+    userPhone
+    ": "
+    18896551937
+    "}], [{"
+    id
+    ": 25, "
+    content
+    ": "
+    1111
+    ", "
+    time
+    ":"__2018, 10, 17", "
+    dynamicId
+    ": 2, "
+    firstcomment
+    ": 9, "
+    userPhone
+    ": "
+    18896551937
+    "}], {"
+    id
+    ": 10, "
+    content
+    ": "
+    ", "
+    time
+    ": datet
+    ime.date(2018,
+    10,
+    16",
+    "dynamicId": 2,
+    "firstcomment": None,
+    "userPhone": "18896551937"
+  },
+  [
+    {
+      "id": 24,
+      "content": "1111",
+      "time":"__2018,
+      10,
+      17",
+      "dynamicId": 2,
+      "firstcomment": 11,
+      "userPhone": "18896551937"
+    }
+  ],
+  {
+    "id": 12,
+    "content": "",
+    "time":"__2018,
+    10,
+    16",
+    "dynamicId": 2,
+    "firstcomment": None,
+    "userPhone": "18896551937"
+  },
+  {
+    "id": 13,
+    "content": "",
+    "time":"__2018,
+    10,
+    16",
+    "dynamicId": 2,
+    "firstcomment": None,
+    "userPhone": "1889655
+    1937
+    "}, {"
+    id
+    ": 14, "
+    content
+    ": "
+    111
+    ", "
+    time
+    ":"__2018, 10, 16", "
+    dynamicId
+    ": 2, "
+    firstcomment
+    ": None, "
+    userPhone
+    ": "
+    18896551937
+    "}, {"
+    id
+    ": 15, "
+    conten
+    t
+    ": "
+    ", "
+    time
+    ":"__2018, 10, 16", "
+    dynamicId
+    ": 2, "
+    firstcomment
+    ": None, "
+    userPhone
+    ": "
+    18896551937
+    "}, {"
+    id
+    ": 16, "
+    content
+    ": "
+    fffff
+    ", "
+    time
+    ": datetime
+    .date(2018,
+    10,
+    16",
+    "dynamicId": 2,
+    "firstcomment": None,
+    "userPhone": "18896551937"
+  },
+  {
+    "id": 17,
+    "content": "gggggggg",
+    "time":"__2018,
+    10,
+    16",
+    "dynamicId": 2,
+    "firstcomment": None,
+    "userPhone": "18896551937"
+  },
+  {
+    "id": 18,
+    "content": "uuuuuuuuuu",
+    "time":"__2018,
+    10,
+    16",
+    "dynamicId": 2,
+    "fi
+    rstcomment
+    ": None, "
+    userPhone
+    ": "
+    18896551937
+    "}, {"
+    id
+    ": 19, "
+    content
+    ": "
+    rrr
+    ", "
+    time
+    ":"__2018, 10, 16", "
+    dynamicId
+    ": 2, "
+    firstcomment
+    ": None, "
+    userPh
+    one
+    ": "
+    18896551937
+    "}, {"
+    id
+    ": 20, "
+    content
+    ": "
+    3333
+    ", "
+    time
+    ":"__2018, 10, 17", "
+    dynamicId
+    ": 2, "
+    firstcomment
+    ": 7, "
+    userPhone
+    ": "
+    18036387467
+    "}, {"
+    id
+    ":
+    21,
+    "content": "4444",
+    "time":"__2018,
+    10,
+    17",
+    "dynamicId": 2,
+    "firstcomment": 8,
+    "userPhone": "18896551937"
+  },
+  [
+    {
+      "id": 27,
+      "content": "yyy",
+      "tim
+      e
+      ":"__2018, 10, 17", "
+      dynamicId
+      ": 2, "
+      firstcomment
+      ": 22, "
+      userPhone
+      ": "
+      18896551937
+      "}], {"
+      id
+      ": 23, "
+      content
+      ": "
+      1222
+      ", "
+      time
+      ":"__2018, 10,
+      17",
+      "dynamicId": 2,
+      "firstcomment": 4,
+      "userPhone": "18896551937"
+    },
+    {
+      "id": 24,
+      "content": "1111",
+      "time":"__2018,
+      10,
+      17",
+      "dynamicId": 2,
+      "firs
+      tcomment
+      ": 11, "
+      userPhone
+      ": "
+      18896551937
+      "}, {"
+      id
+      ": 25, "
+      content
+      ": "
+      1111
+      ", "
+      time
+      ":"__2018, 10, 17", "
+      dynamicId
+      ": 2, "
+      firstcomment
+      ": 9, "
+      userPhone
+      ":
+      "18896551937"
+    },
+    {
+      "id": 26,
+      "content": "1111",
+      "time":"__2018,
+      10,
+      17",
+      "dynamicId": 2,
+      "firstcomment": 4,
+      "userPhone": "18896551937"
+    },
+    {
+      "id": 27,
+      "
+      content
+      ": "
+      yyy
+      ", "
+      time
+      ":"__2018, 10, 17", "
+      dynamicId
+      ": 2, "
+      firstcomment
+      ": 22, "
+      userPhone
+      ": "
+      18896551937
+      "}]

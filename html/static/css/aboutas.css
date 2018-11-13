@@ -1,0 +1,50 @@
+.intro-text-wrap p{
+    line-height: 1.8;
+    color: #a8a8a8;
+}
+
+.intro-pic-wrap{
+    margin-bottom: 40px;
+}
+
+.intro-text-title{
+    font-size: 26px;
+    margin-bottom: 24px;
+    color: #444444;
+}
+
+.rainbowimg{
+    width: 800px;
+    height: 300px;
+}
+
+.r-1{
+    display:flex;
+    align-content: space-between;
+    margin-bottom: 80px;
+    width:800px;
+    position:relative ;
+
+}
+.rinfo{
+    margin-left: 20px;
+    color: #5a5a5a;
+}
+.img_box{
+    position: relative;
+}
+.img_photo{
+    margin-left: 50px;
+    display:flex;
+    align-items: center;
+}
+.r-1 span{
+    display: block;
+    position:absolute ;
+    left: 60px;
+    top: 70px;
+    font-size: 18px;
+}
+.us{
+    margin-bottom: 30px;
+}

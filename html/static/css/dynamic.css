@@ -1,0 +1,264 @@
+/************************内容部分********************/
+#mn_content{
+    margin-top: 80px;
+}
+
+#mn_content .thumbnail button{
+    width: 30px;
+    height: 30px;
+    background: white;
+    position: absolute;
+    z-index: 5;
+    right: 0;
+    border: none;
+}
+
+.user-pic a{
+    float: left;
+}
+#mn_content .container{
+    width: 1016px;
+    position: relative;
+    overflow: hidden;
+}
+
+#mn_content .all-story{
+    font-weight: 800 !important;
+    margin: 0 !important;
+    word-wrap: break-word !important;
+    font-size: 24px !important;
+    line-height: 30px !important;
+    letter-spacing: normal !important;
+    color: #484848 !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px;
+}
+.thumbnail{
+    /*margin-top: -25px;*/
+    width: 242px;
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+.thumbnail .good-1{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background: url("../images/点赞.svg");
+    background-repeat: no-repeat;
+}
+.thumbnail img{
+    width: 242px;
+    height: 242px;
+    position: relative;
+}
+.mask {
+    width: 242px;
+    height: 40px;
+    position: absolute;
+    bottom: 110px;
+    background: rgba(14, 14, 14, 0.6);
+    color: #ffffff;
+    opacity: 0;
+
+}
+.thumbnail .xianshi:hover .mask {
+    opacity: 0.8;
+}
+/*按钮的控制*/
+.mn-btn input{
+    width: 50px;
+    height: 28px;
+    font-size: 0.3em;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-left: 20px;
+    border-radius: 15px 15px 15px 15px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    background: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0);
+}
+.mn-btn:hover input{
+    background: rgba(0, 0, 0, 0.49);
+    color: white;
+    outline: 0;
+}
+.mn-btn input:hover{
+    background: rgba(154, 154, 154, 0.67);
+    color: white;
+}
+.nav-cole span{
+    margin-left: 10px;
+}
+.caption{
+    height: 110px;
+    /*background: #2aabd2;*/
+    overflow: hidden;
+    border: #f2f2f2 1px solid;
+}
+
+#mn_content .user-info img{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+.user-intro{
+    font-size: 0.8em;
+    cursor: pointer;
+}
+.user-intro p1{
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.user-info a{
+    width: 40px;
+}
+
+/************************内容部分********************/
+
+.aaa{
+    width: 242px;
+    height: 100px;
+    background-color:white;
+    display: none;
+    border: #d1d1d1 1px solid;
+    position: absolute;
+    margin-top: -20px;
+    z-index: 2;
+
+}
+.aaa span{
+    font-weight: bolder;
+    padding: 25px;
+    position: relative;
+    top:8px;
+}
+.aaa textarea{
+    width: 160px;
+    height: 50px;
+    margin-left: 60px;
+    margin-top: 5px;
+    font-size: 0.3em;
+    font-weight: bolder;
+    resize:none;
+    background-color: #f8f8f8;
+    border: none;
+    border-radius: unset;
+}
+.aaa a{
+    float: right;
+    margin-right: 20px;
+    width: 40px;
+    height: 20px;
+    background: #ff2d82;
+    font-size: 0.4em;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+}
+.zan-appear{
+    width: 60px;
+    height: 60px;
+    background-image: url("../images/赞.svg");
+    position: absolute;
+    left: 100px;
+    bottom: 200px;
+    display: none;
+    z-index: 4;
+}
+/*********收集部分****************/
+
+
+.modal-content{
+    background: #f1f1f1;
+}
+
+
+
+.modal-dialog {
+    width: 662px;
+    height: 311px;
+
+}
+.modal-body{
+    overflow: hidden;
+}
+.modal-body img{
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+   margin-bottom: 20px;
+}
+.mn-right-save{
+    width: 370px;
+    height: 200px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.mn-right-save button{
+    float: left;
+    width: 60px;
+    height: 30px;
+    border: 0 none;
+    background: pink;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.mn-right-save button u{
+    display: inline-block;
+    padding: 0 16px 0 16px;
+    height: 100%;
+    font-size: 14px;
+    line-height: 31px;
+    color: #f7f7f7;
+    cursor: pointer;
+    text-decoration: none!important;
+}
+.mn-real input{
+    width: 342px;
+    height: 28px;
+    float: left;
+    outline: none;
+}
+.mn-real a{
+    width: 28px;
+    height: 28px;
+    background: pink;
+    float: left;
+}
+.mn-real a img{
+    margin-top: 4px;
+    margin-left: 2px;
+}
+.tex{
+    width: 370px;
+    height: 83px;
+    outline: none;
+    margin-top: 20px;
+    background-color: white;
+    border: none;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+
+/*********收集部分****************/
+.btnmore{
+    background-color: black !important;
+    color: white;
+}

@@ -1,0 +1,424 @@
+
+
+ul, ol, li {
+    list-style-type: none
+}
+
+a {
+    color: #666 !important;
+    text-decoration: none;
+    outline: 0
+}
+
+a:hover {
+    text-decoration: none
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.widthhund {
+    width: 120px;
+    line-height: 50px;
+}
+
+.displayinline {
+    display: inline !important;
+}
+
+.img-head-icon {
+    width: 32px;
+    height: 24px;
+}
+
+/*---------------end header----------*/
+.catalog {
+    width: 1002px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.catalog > h1 {
+    display: block;
+    font-size: 23px;
+}
+
+.contentAll {
+    width: 1002px;
+    margin: 30px auto;
+    /*background: grey;*/
+    display: flex;
+}
+
+.contentAll .snack_list {
+    width: 802px;
+
+}
+
+.contentAll .snack_list > ul {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.contentAll .snack_list > ul > li {
+    flex: 1;
+    min-width: 220px;
+    max-width: 220px;
+    height: 319px;
+    margin-top: 10px;
+    margin-left: 10px;
+    /*background: grey;*/
+    border-bottom: solid 1px #a8a8a8;
+}
+
+.contentAll .snack_list > ul > li .biaoqian {
+    position: relative;
+}
+
+.contentAll .snack_list > ul > li .biaoqian > .xg {
+    position: absolute;
+    display: block;
+    background: green;
+    padding: 3px;
+    font-size: 12px;
+    top: -40px;
+    left: 162px;
+    color: white;
+}
+
+.contentAll .snack_list > ul > li > .food_list, .contentAll .snack_list > ul > li > div > img {
+    width: 220px;
+    height: 220px;
+}
+
+.contentAll .snack_list > ul > li div:nth-child(2) span:nth-child(1):before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-left: -20px;
+    position: absolute;
+}
+
+.contentAll .snack_list > ul > li div:nth-child(2) span:nth-child(1) {
+    font-size: 13px;
+    margin-left: 15px;
+    display: block;
+    margin-top: -180px;
+}
+
+.contentAll .snack_list > ul > li div:nth-child(2) span:nth-child(2):before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-left: -20px;
+    position: absolute;
+}
+
+.contentAll .snack_list > ul > li > span {
+    font-size: 16px;
+}
+
+.contentAll .snack_list > ul > li div:nth-child(2) span:nth-child(2) {
+    display: block;
+    font-size: 13px;
+    margin-left: 15px;
+    color: grey;
+    margin-top: 10px;
+}
+
+.contentAll .snack_list > ul > li > span:nth-child(3) {
+    display: block;
+    margin-top: 10px;
+}
+
+.contentAll .advertisement {
+    width: 250px;
+    /*background: #60ffee;*/
+}
+
+.advertisement .cbchoose {
+    width: 85%;
+    height: 50px;
+    margin: auto;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+}
+
+.advertisement .cbchoose .s {
+    background: white;
+    color: #9b9b9b;
+}
+
+.advertisement .cbchoose > div {
+    flex: 1;
+    height: 100%;
+    background: #9b9b9b;
+    text-align: center;
+}
+
+.advertisement .cbfood .putong {
+    width: 85%;
+    margin: auto;
+}
+
+.advertisement .cbfood .putong ul li .t {
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px #d0d0d0 solid;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.advertisement .cbfood .putong ul li .j {
+    width: 100%;
+
+    justify-content: left;
+    padding: 10px;
+    flex-wrap: wrap;
+    display: none;
+}
+
+.advertisement .cbfood .putong ul li .j > span {
+    width: 80px;
+    height: 30px;
+    border: 1px solid #d0d0d0;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    position: relative;
+}
+
+.advertisement .cbfood .putong ul li .j > span span {
+    width: 10px;
+    height: 10px;
+    display: block;
+    background: white;
+    position: absolute;
+    left: 86%;
+    top: 64%;
+    z-index: 666;
+    color: white;
+    font-size: 8px;
+    text-align: left;
+    line-height: 10px;
+}
+
+.advertisement .cbfood .putong ul li .j > span:hover {
+    border: 1px solid gray;
+}
+
+.advertisement .cbfood .putong ul li .j > span:hover > span {
+    background: #949494;
+    left: 91%;
+    top: 67%;
+}
+
+.cbfood .shicai {
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.cbfood .shicai {
+    display: none;
+}
+
+.cbfood .shicai .shaixuan {
+    width: 90%;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    font-size: 13px;
+}
+
+.cbfood .shicai .shaixuan input {
+    width: 135px;
+    border: 1px gainsboro solid;
+    border-right: none;
+    margin-left: 20px;
+}
+
+.cbfood .shicai .shaixuan input:focus {
+    outline: none;
+}
+
+.cbfood .shicai .shaixuan button {
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: #419641;
+    border: 1px gainsboro solid;
+    border-left: none;
+    font-size: 12px;
+    padding: 0;
+}
+
+.shicai .typepaixu {
+    width: 115%;
+    height: 30px;
+    margin: 30px;
+}
+
+.shicai .typepaixu span {
+    display: block;
+    width: 80%;
+    height: 40px;
+    text-align: left;
+    line-height: 40px;
+    border-top: solid 1px #c2c2c2;
+}
+.shicai .paixu{
+
+}
+.paixu input{
+    display:flex;
+    margin-left:100px;
+    border:1px solid #ffce03;
+    background:#ffce03;
+}
+
+
+.shicai .paixu ul {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.shicai .paixu ul li {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-left: 40px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.shicai .paixu ul li > span {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+}
+
+.shicai .paixu ul li > span:nth-child(2) {
+    text-align: right;
+}
+
+.shicai .paixu ul li > span span {
+    width: 40px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+}
+
+.shicai .paixu ul li > span span:nth-child(1) {
+    background: #419641;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.shicai .paixu ul li > span span:nth-child(2) {
+    margin-left: 10px;
+}
+
+/*-----------------end body---------*/
+.footer {
+    font-size: 13px;
+
+    margin: auto;
+    width: 1002px;
+    background: #b1b1b1;
+}
+
+.footer > ul > li {
+    color: #5d5d5d;
+    margin-left: 10px;
+}
+
+.footer > ul > li:nth-child(1) > ul {
+    color: #515151;
+}
+
+.footer > ul > li:nth-child(3) {
+    font-size: 12px;
+    color: grey;
+    text-align: center;
+}
+
+.yemashow .yema {
+    display: flex;
+}
+
+.yemashow .yema li {
+    padding: 10px;
+}
+
+.yemashow .yema li:hover, .yemashow .yema li a:hover {
+    background: #d5d5d5;
+    color: white !important;
+}
+
+.snack_list ul li {
+    position: relative;
+}
+
+.motaikuang {
+    width: 220px;
+    height: 319px;
+    background: black;
+    opacity: 0.4;
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 0;
+}
+
+.motaikuang > div {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 120px;
+    color: #ffffff;
+}
+
+.snack_list ul li:hover > .motaikuang {
+    cursor: pointer;
+    display: block;
+}
+/*-----------------------------*/
+.pager.fy{
+    display: flex;
+    justify-content: center;
+    /*background: gray;*/
+}
+.pager.fy li{
+    margin-right: 10px;
+}

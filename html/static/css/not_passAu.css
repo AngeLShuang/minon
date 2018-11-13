@@ -1,0 +1,143 @@
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.user-revise-info{
+    height:120px;
+    padding:15px 15px 15px 15px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-revise-info>a{
+    width:70px;
+    height:70px;
+}
+.user-revise-info>a:hover{
+    text-decoration: none;
+}
+.user-revise-info>a>img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+}
+
+.food-name{
+    display:flex;
+    justify-content: center;
+    color: #000000;
+}
+.food-name:hover{
+    cursor:pointer;
+    text-decoration: none;
+    color:#e38d13;
+}
+.clicklook-box{
+    display:flex;
+    align-items: center;
+}
+
+.clicklook{
+    color: #666666;
+    height:45px;
+    width:100px;
+    outline:none;
+    background: #ffce03;
+}
+.clicklook:hover{
+    cursor:pointer;
+    text-decoration: none;
+    color: #e38d13;
+}
+.clicklook:focus{
+    outline:none;
+}
+.weishenhe{
+    display: flex;
+    justify-content: space-between;
+}
+/*---------end-------*/
+
+/*-------模态框------*/
+.body-box{
+    padding:15px 15px 15px 15px;
+}
+.details-box1{
+    padding:15px 15px 15px 15px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.details-box1>a>img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+}
+.applicant{
+    font-size:20px;
+    color: #000000;
+    margin-bottom: 20px;
+
+}
+.details-box2 a{
+    text-decoration: none;
+    display:flex;
+    align-items: center;
+}
+.apply{
+    display:flex;
+    justify-content: space-between;
+}
+.details-box2 .yitongguo-1{
+    display:none;
+}
+.details-box2 .yitongguo-2{
+    display:none;
+}
+.details-box2 p{
+    border:solid 1px #eeeeee;
+    background:#eeeeee;
+    border-radius:5px;
+}
+.yes-no{
+    display:flex;
+    align-items: center;
+}
+.yes-no .yes-btn{
+    margin-right:5px;
+    background:#ffce03;
+    color: #404040;
+    border:#ffce03;
+    display:block;
+}
+.yes-no .yes-btn:hover{
+    color:#f5efff;
+}
+.yes-no .yes-btn:focus{
+    outline: none;
+}
+.yes-no .no-btn{
+    border:#2aabd2;
+    display:block;
+}
+.yes-no .no-btn:focus{
+    outline: none;
+}
+.details-box3{
+    display:flex;
+    justify-content: flex-end;
+}
+.details-box3 p{
+    color:#2aabd2;
+}
+.img-responsive{
+    width:50%;
+}
+/*----------end-------*/
+
+.fangehei{
+    color:#000000;
+}

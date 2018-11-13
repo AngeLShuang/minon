@@ -1,0 +1,177 @@
+
+.container-fluid{
+    background:#f4f4f4;
+
+}
+.findpwd{
+    width:900px;
+    height:900px;
+    margin:auto;
+    padding-top:48px;
+}
+
+.findpwd-nav{
+    padding-top:40px;
+    display:flex;
+    justify-content: space-between;
+}
+.nav-span1{
+    font-size: 20px;
+    color:#000000;
+}
+.findpwd-nav a{
+    color: #276287;
+}
+.findpwd-nav a:hover{
+    text-decoration: none;
+}
+
+.nav-span2{
+    padding-right:20px;
+    border-right:solid 1px #404040;
+    margin-right: 20px;
+}
+
+
+.findpwd-con{
+    margin:30px 0 30px 0;
+}
+.con-head{
+    display:flex;
+    justify-content: center;
+    height:70px;
+    background: #000000;
+    color: white;
+    border-radius: 5px 5px;
+}
+
+.head-span1{
+    font-size:25px;
+    display:flex;
+    align-items: center;
+}
+
+.con-main{
+    background:#ffffff;
+}
+.form-con{
+    display:flex;
+    justify-content: center;
+    padding:40px 0 40px 0;
+}
+.center{
+    width:340px;
+    height:300px;
+    display:block;
+}
+.center h4{
+    display:flex;
+    justify-content: center;
+    color:#000000;
+    padding:0 0 20px 0;
+}
+.verify-userphone{
+    display:block;
+}
+.please-inputphone{
+    color:red;
+    display:none;
+}
+.please-yzm{
+    color:red;
+    display:none;
+
+}
+.form-control{
+    height:50px;
+}
+.yanzheng-box{
+    display:flex;
+    justify-content: space-between;
+}
+.yanzheng-box .getyzm{
+    margin-left:20px;
+}
+.nextstep{
+    width:340px;
+    height:40px;
+    margin-top:20px;
+    background: #000000;
+    border: #000000;
+    color: white;
+    display:block;
+}
+.nextstep:focus{
+    outline:none;
+}
+.nextstep:hover{
+    background: #575757;
+    color: white;
+}
+.nextstep2{
+    width:340px;
+    height:40px;
+    background: #000000;
+    border: #000000;
+    color: white;
+    display:block;
+}
+.nextstep2:focus{
+    outline:none;
+}
+.nextstep2:hover{
+    background: #575757;
+    color: white;
+}
+
+
+.center2{
+    width:340px;
+    height:300px;
+    display:none;
+}
+.center2 h4{
+    display:flex;
+    justify-content: center;
+    color:#000000;
+    padding:0 0 20px 0;
+}
+
+.new-pwd{
+
+}
+
+.pwd-yes{
+
+}
+.go-login{
+    width:340px;
+    height:40px;
+    background: #000000;
+    border: #000000;
+    color: white;
+    color: #404040;
+}
+.go-login:hover{
+    background: #575757;
+    color: white;
+}
+.pwdok-login{
+    display:none;
+}
+.pwdok-login>span{
+    display:flex;
+    justify-content: center;
+    padding:0 0 40px 0;
+}
+.pwd-zucheng{
+    color:red;
+    display:none;
+}
+.pwd-again{
+    color:red;
+    display:none;
+}
+.margintop{
+    /*border-top:none!important;*/
+}

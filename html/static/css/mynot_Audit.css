@@ -1,0 +1,105 @@
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.user-revise-info{
+    height:120px;
+    padding:15px 15px 15px 15px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-revise-info>a{
+    width:70px;
+    height:70px;
+}
+.user-revise-info>a:hover{
+    text-decoration: none;
+}
+.user-revise-info>a>img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+}
+
+.food-name{
+    display:flex;
+    justify-content: center;
+    color: #000000;
+}
+.food-name:hover{
+    cursor:pointer;
+    text-decoration: none;
+    color:#e38d13;
+}
+.clicklook{
+    display:flex;
+    align-items: center;
+    color: #666666;
+}
+.clicklook:hover{
+    cursor:pointer;
+    text-decoration: none;
+    color: #e38d13;
+}
+.yishenhe{
+    display: flex;
+    justify-content: space-between;
+}
+.yishenhe-btn{
+    display:flex;
+    align-items: center;
+
+}
+
+/*---------end-------*/
+
+/*-------模态框------*/
+.body-box{
+    padding:15px 15px 15px 15px;
+}
+.details-box1{
+    padding:15px 15px 15px 15px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.details-box1>a>img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+}
+/*.applicant{*/
+    /*font-size:20px;*/
+    /*color: #000000;*/
+    /*margin-bottom: 20px;*/
+
+/*}*/
+.details-box2 a{
+    text-decoration: none;
+    display:flex;
+    align-items: center;
+}
+.apply{
+    display:flex;
+    justify-content: space-between;
+}
+.details-box2 p{
+    border:solid 1px #eeeeee;
+    background:#eeeeee;
+    border-radius:5px;
+}
+.details-box3{
+    display:flex;
+    justify-content: flex-end;
+}
+.details-box3 p{
+    color:#2aabd2;
+}
+.img-responsive{
+    width:50%;
+}
+/*----------end-------*/

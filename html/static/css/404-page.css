@@ -1,0 +1,34 @@
+.tot{
+    margin-top: 83px;
+}
+
+.not-find-main{
+    opacity: 50%;
+}
+.margintop{
+    margin-top: 90px;
+}
+
+
+.not-find{
+    display:flex;
+    justify-content: center;
+}
+.return-home{
+    display:flex;
+    justify-content: center;
+}
+.btn-default{
+    border-radius:50px;
+    width:200px;
+    height:45px;
+    background:#ffffff;
+    opacity: 50%;
+}
+.btn-default:hover{
+    background:#ffffff;
+}
+.btn-default:focus{
+        background:#ffffff;
+    outline:none;
+}

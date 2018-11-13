@@ -1,0 +1,225 @@
+ul,ol,li {
+    list-style-type: none
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+    outline: 0
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+a:active{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+.cbl{
+    width: 232px !important;
+    margin: 10px;
+    height: 332px;
+    float: left;
+    position: relative;
+}
+
+.cbl .img{
+    position: relative;
+    height: 232px;
+    width: 232px;
+}
+
+.cbl .img a img{
+    display: block;
+    height: 232px;
+    width: 232px;
+    border: none;
+}
+
+.cbl .img .gx{
+    display: inline-block;
+    vertical-align: top;
+    height: 38px;
+    position: absolute;
+    right: -6px;
+    top: 12px;
+    background: url(../image/gxarrow.png) right 32px no-repeat;
+}
+.cbl .img .gx span{
+    display: inline-block;
+    vertical-align: top;
+    height: 32px;
+    padding: 0px 12px;
+    background: #ffcd5d;
+    line-height: 32px;
+    color: #fff;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.5);
+    font-size: 14px;
+}
+
+.cb1 .info{
+    position: absolute;
+    height: 232px;
+    width: 232px;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    background-color: #82fcff;
+}
+
+.cbl .info{
+    position: absolute;
+    height: 232px;
+    width: 232px;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+
+.cbl .info .infoc{
+    display: block;
+    background: url(../image/black75.png) 0px 0px repeat;
+    height: 232px;
+    width: 232px;
+    position: absolute;
+    /*margin-left: 0px;*/
+    margin-left: 232px;
+    top: 0px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition-property: margin-left,opacity;
+    transition-duration: 0.6s,0.4s;
+}
+
+.cbl:hover .info .infoc{
+    margin-left: 0;
+    opacity: 1;
+}
+.cbl .info .infoc .linkcb{
+    display: block;
+    height: 232px;
+    width: 232px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    background: url(../image/blank.gif) 0px 0px repeat;
+}
+
+.cbl .info .infoc .linkcb ul{
+    padding: 71px 0px 41px;
+    height: 120px;
+}
+
+.cbl .info .infoc .linkcb ul li{
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 12px;
+    float: left;
+    width: 100px;
+    background: url(../image/list_style1_icons.png) no-repeat;
+    text-indent: 50px;
+}
+
+.cbl .info .infoc .linkcb ul .gy{
+    background-position: 10px -40px;
+}
+
+.cbl .info .infoc .linkcb ul .kw{
+    background-position: 10px -80px;
+}
+
+.cbl .info .infoc .linkcb ul .nd{
+    background-position: 10px -120px;
+}
+
+.cbl .info .infoc .gx2{
+    z-index: 100;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    height: 32px;
+    position: absolute;
+    right: -6px;
+    top: 12px;
+    background: #ffc666;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.5);
+    line-height: 32px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.cbl .info .infoc .gx2 span{
+    padding: 0px 12px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.cbl .infoma{
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cbl .infoma h3{
+    margin-top: 10px;
+    height: 28px;
+    line-height: 28px;
+    text-indent: 14px;
+}
+
+.cbl .infoma h3 a{
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cb1.infoma .d1{
+    height: 24px;
+    line-height: 24px;
+    padding-left: 14px;
+}
+
+.cbl .infoma .d1 span{
+    color: #999;
+    margin-left: 12px;
+    margin-top: 3px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+}
+
+.cbl .infoma .author{
+    line-height: 24px;
+    color: #ffc679;
+    padding-left: 14px;
+    font-size: 13px;
+}
+
+.cbl .infoma .delete{
+    position: absolute;
+    right: 0px;
+    bottom: 17px;
+    height: 22px;
+    line-height: 22px;
+    color: #999;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.cbl .infoma .delete .deleteb:hover{
+    color: red;
+}

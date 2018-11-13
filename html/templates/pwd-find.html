@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>米农|找回密码</title>
+    <script src="../static/js/uuconf.js"></script>
+    <link rel="icon" href="../static/images/logo.ico" type="image/x-icon"/>
+    <script src="../static/js/jquery-3.2.1.js"></script>
+    <script src="../static/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../static/css/bootstrap.css">
+    <link rel="stylesheet" href="../static/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../static/css/find_pwd.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="findpwd">
+            <div class="findpwd-nav">
+                <div>
+                    <span class="nav-span1">找回密码</span>
+                </div>
+                <div>
+                    <span class="nav-span2">已有账号，<a href="../index.html">马上登录</a></span>
+                    <a href="../index.html">返回米农首页</a>
+                </div>
+            </div>
+            <div class="findpwd-con">
+                <div class="con-head">
+                    <h2 class="head-span1">账号安全</h2>
+                </div>
+                <form action="" class="con-main">
+                        <div class="form-con">
+                            <div class="center">
+                                <h4>找回密码</h4>
+                                <div class="verify-userphone">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control user-emil phone" placeholder="手机号/邮箱"
+                                              value="">
+                                        <span class="please-inputphone">请输入手机号</span>
+                                    </div>
+                                    <div class="form-group yanzheng-box">
+                                        <input type="text" class="form-control yzm-txt" placeholder="验证码" >
+
+                                        <button type="button" class="btn btn-primary getyzm" data-toggle="button"
+                                                aria-pressed="false" autocomplete="off" style="width: 244px">
+                                            点我获取验证码
+                                        </button>
+
+                                    </div>
+                                    <span class="please-yzm">请输入验证码</span>
+                                </div>
+                                <div class="pwdok-login">
+                                    <span>您已成功设置新密码，请试用新密码登录</span>
+                                    <a href="../index.html">
+                                        <input type="button" value="马上登录"  class="btn  go-login">
+                                    </a>
+                                </div>
+                                <input type="button" class="btn nextstep" value="下一步">
+                            </div>
+                            <div class="center2">
+                                    <h4>修改密码</h4>
+                                <div class="form-group">
+                                    <div class="form-group">
+                                        <input type="password" class="form-control new-pwd" placeholder="新密码">
+                                    </div>
+                                    <span class="pwd-zucheng">请输入密码</span>
+                                    <span class="pwd-zucheng">密码应由字母数字下划线组成</span>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control pwd-yes" placeholder="确认密码"
+                                               >
+                                    </div>
+                                    <span class="pwd-again">两次输入的密码不相同，请重新输入</span>
+                                </div>
+                                 <input type="button" class="btn nextstep2" value="下一步">
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../static/js/find_pwd.js"></script>
+    <script type="text/javascript" src="../static/js/findpwdpassword.js"></script>
+</body>
+</html>

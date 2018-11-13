@@ -1,0 +1,90 @@
+.footer {
+    margin-bottom: 0;
+}
+
+.footer > ul li {
+    list-style: none;
+}
+.footer.ff > ul > li ul li{
+    margin-left: 40px;
+}
+.footer > ul {
+    width: 1160px;
+    margin: 30px auto;
+    height: 154px;
+    color: white;
+    display: flex;
+}
+
+.footer > ul > li span {
+    width: 134px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    border-left: 4px solid #1EB161;
+    line-height: 30px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer > ul > li ul {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #adadad;
+}
+
+.footer > ul > li ul li {
+    display: block;
+    width: 134px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.footer > ul > li ul li:hover {
+    color: #e6e6e6;
+}
+
+.footer {
+    margin-top: 70px;
+    border-top: #1EB161 solid 3px;
+    width: 100%;
+    height: 224px;
+    background: #323232;
+
+}
+
+.footer-last {
+    width: 100%;
+    height: 50px;
+    background: black;
+}
+
+.logo{
+    height: 50px;
+    border-radius: 15px 35px;
+}
+
+.navbar{
+    border: none;
+}
+
+.navbar .container-fluid{
+    background-image: url("../images/text2.png");
+    background-color: #323232;
+    color: white;
+    opacity: 0.85;
+}
+
+.navbar .container-fluid a{
+    color: white !important;
+}
+
+.navbar-brand{
+    margin: 0;
+    padding: 0
+}
+
+.dongtai{
+    cursor: pointer;
+}

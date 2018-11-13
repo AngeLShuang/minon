@@ -1,0 +1,283 @@
+.container{
+    margin-top: 90px;
+}
+
+/*margin-top高度 begin*/
+.margint{
+    margin-top: 20px;
+}
+
+.marginten{
+    margin-top: 10px;
+}
+/*margin-top高度 end*/
+
+/*display 属性 begin*/
+.displayinline{
+    display: inline !important;
+}
+
+.displaynone{
+    display: none;
+}
+
+.displaynblock{
+    display: block;
+}
+/*display 属性 end*/
+
+/*清除浮动*/
+
+.of{
+    overflow: hidden;
+}
+
+/*浮动*/
+.f{
+    float: left;
+}
+
+/*增删改查步骤的框*/
+.cdstep{
+    width: 5%;
+}
+
+/*描述步骤的文本框*/
+.desstep{
+    width: 60%;
+}
+
+/*文本框*/
+.descri{
+    width: 100%;
+}
+/*描述步骤的图片*/
+.picstep{
+    width: 20%;
+}
+/*描述步骤的数字*/
+.numstep{
+    width: 15%;
+}
+/*原材料叉叉图标*/
+.picmater{
+    width: 10%;
+}
+/*原材料用量的框框*/
+.consumater{
+    width: 40%;
+}
+/*原材料名称的框框*/
+.namemater{
+    width: 50%;
+}
+
+.h{
+    height: 100px;
+}
+
+.sh{
+    height: 20px;
+}
+
+.lh{
+    height:200px;
+}
+
+.objextfit{
+    object-fit: cover;
+}
+
+.img-circle{
+    height: 19px;
+    width: 19px;
+    object-fit: cover;
+}
+
+.widthhund{
+    width: 120px;
+    line-height: 50px;
+}
+
+.borderb{
+    border-bottom: dotted 1px rgba(176, 176, 176, 0.65);
+}
+
+.fontlar{
+    font-size: 20px;
+}
+
+.widthborder{
+    border: dotted 1px rgba(176, 176, 176, 0.65);
+    border-top: none;
+    border-bottom: none;
+}
+
+.btn{
+    border: solid 1px rgba(176, 176, 176, 0.65);
+    font-size: 14px;
+}
+
+.bordnone{
+    width: 75% !important;
+    border: none;
+    outline: none;
+}
+/*相对位置*/
+.pore{
+    position: relative;
+}
+
+@keyframes moveon {
+    0% {opacity: 0;}
+    50% {opacity: 0.5;}
+    75% {opacity: 0.75;}
+    100% {opacity: 1;}
+}
+
+/*警告框*/
+.wn{
+    width: 260px;
+    position: absolute;
+    top:-15px;
+    left: 325px;
+    font-size: 12px;
+    background-color: #91d6ff;
+    border-radius: 4px;
+    vertical-align: top;
+    line-height: 18px;
+    padding: 10px 14px;
+    color: #fff;
+    animation: moveon 0.5s;
+    display: none;
+}
+
+.pic{
+    float: right;
+    top: -20px;
+}
+
+.posizindex{
+    display: none;
+    position: absolute;
+    z-index:999;
+    top: 32px;
+    left: 15px;"
+}
+
+/*上传图片 begin*/
+.dy-ul-list{
+    width: 360px;
+    margin-left: -38px;
+}
+
+.upload-pics{
+
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px dashed #ccc;
+}
+
+.upload-pics .dy-upload-a{
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+
+}
+
+.upload-pics .dy-upload-a .dy-i{
+    width: 18px;
+    height: 18px;
+    margin-left: -9px;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    vertical-align: top;
+    background-image: url("../image/icon-sprites_style2.png");
+    background-position: -348px -952px;
+}
+
+.upload-pics .dy-upload-a .dy-up-span{
+    position: absolute;
+    display: block;
+    top: 58px;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.upload-pics .dy-upload-a .up-input{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+/*上传图片 end*/
+
+.backgrey{
+    font-size: 12px;
+    background-color: #DDDDDD !important;
+    border-radius: 4px;
+    padding: 10px 14px;
+}
+.cross{
+    color: #7d7d7d;
+}
+
+.cross:hover{
+    opacity: 0.5;
+}
+
+.hline{
+    height: 40px;
+    line-height: 40px;
+}
+
+.bordergrey{
+    border: solid 1px #DDDDDD;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 2px;
+    margin-right: 10px;
+}
+
+.showPic{
+    width: 100%;
+    height: 100%;
+    /*position: relative;*/
+}
+
+.positionRela{
+    position: relative;
+}
+
+.delepic {
+    position: absolute;
+    left: 72%;
+    top: 0px;
+}
+
+/*多行文本框*/
+.mutext{
+    width:92%;
+    margin-left: 15px;
+}
+
+.fw{
+    font-size:13px;
+    color: rgba(162,220,240,0.97);
+}
+
+.cbintro{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: solid 1px rgba(129, 129, 129, 0.31);
+    min-height: 200px;
+    resize: none;
+}

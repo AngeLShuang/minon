@@ -1,0 +1,285 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>米农|欢迎访问米农</title>
+    <script src="../static/js/uuconf.js"></script>
+    <link rel="icon" href="../static/images/logo.ico" type="image/x-icon"/>
+    <script src="../static/js/jquery-3.2.1.js"></script>
+    <script src="../static/js/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="../static/css/bootstrap.css">
+    <link rel="stylesheet" href="../static/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link rel="stylesheet" href="../static/css/navcss.css">
+
+</head>
+<body>
+<div class="container-fluid">
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../index.html"><img src="../static/images/llll.png" class="logo"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <!--<li class="active"><a href="./index.html">米农<span class="sr-only">(current)</span></a></li>-->
+                        <li><a href="./allRecipes.html">小吃大全</a></li>
+                        <li><a href="./dynamic.html">动态</a></li>
+                        <li><a href="#">商城</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-right">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="请输入您要搜索的关键字">
+                        </div>
+                        <button type="submit" class="btn btn-default">搜索</button>
+                    </form>
+
+                </div><!-- /.navbar-collapse -->
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+    </div><!-- /.container-fluid -->
+</nav>
+<div class="container-fluid"  style="margin-top: 30px">
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <main class="text-center">
+                <div class="neirong">
+                    <div class="mubu">
+                        <div class="jumbotron">
+                            <div class="row">
+                                <div class="col-md-10 col-sm-7 col-xs-11 fresh" style="float: right;">
+                                    <h3 class="headline">新鲜，健康，美味</h3>
+                                    <div class="error"></div>
+                                    <div class="signup-login-form">
+                                        <form class="form-horizontal">
+                                            <div class="form-group">
+                                                <div class="col-sm-12">
+                                                    <input type="tel" class="form-control" id="inputTel3" placeholder="请输入手机号码">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-sm-12">
+                                                    <input type="password" class="form-control" id="inputPassword3" placeholder="请输入密码">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-sm-6 yzm">
+                                                    <input type="text" class="form-control keydownyzm" placeholder="请输入验证码">
+                                                </div>
+                                                <div class="col-sm-5 yzmimg">
+                                                    <img src="#" alt="看不清换张">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-sm-7 col-xs-12">
+                                                    <div class="checkbox autoLogin" >
+                                                        <input type="checkbox" id="chkibput" checked>
+                                                        <label for="chkibput" style="padding-left: 0">记住密码</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-5 hidden-xs">
+                                                    <div class="remember" style="float: right">
+                                                        <a href="pwd-find.html"> 忘记密码？</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="col-sm-12">
+                                                    <!--<div class="error"></div>-->
+                                                    <button type="button" class="btn btn-default btn-block" id="login">登 录</button>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="col-sm-12">
+                                                    <!-- Span trigger modal -->
+                                                    <span class="free-regist" data-toggle="modal" data-target="#myModal">还没有账号？点此免费注册</span>
+
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                                        <div class="modal-dialog" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                                    <h4 class="modal-title" id="myModalLabel">米农网注册</h4>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <form class="form-horizontal">
+                                                                        <div class="form-group">
+                                                                            <div class="col-sm-12">
+                                                                                <input type="text" class="form-control" id="inputTel4" placeholder="请输入手机号码">
+                                                                                <div class="errorregist">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div></div>
+                                                                        <div class="form-group">
+                                                                            <div class="col-sm-7">
+                                                                                <div class="verification-text"><!--获取验证码的文本框-->
+                                                                                    <input type="text"  class="form-control " name="user_ver" id="txt_ver" placeholder="请输入验证码">
+                                                                                    <div class="errorregist errorregisty"></div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-sm-5">
+                                                                                <button type="button" class="btn btn-primary getyzm" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                                                                    点我获取验证码
+                                                                                </button>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="form-group">
+                                                                            <div class="col-sm-12">
+                                                                                <input type="password" class="form-control" id="inputPassword4" placeholder="请输入密码,至少六位,可由数字字母下划线组成">
+                                                                                <div class="errorregist errorregistp"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div></div>
+                                                                        <div class="form-group">
+                                                                            <div class="col-sm-12">
+                                                                                <input type="password" class="form-control" id="inputPassword2" placeholder="请确认密码">
+                                                                                <div class="errorregist errorregistp2"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div></div>
+                                                                        <div class="form-group">
+                                                                            <div class="col-sm-12">
+                                                                                <input type="checkbox" name="agree-clause" id="chk_clause" value="agree">
+                                                                                <label for="chk_clause">我已阅读并且同意</label><a href="#"> 米农用户使用协议</a>
+                                                                                <div class="errorregist errxieyi" style="text-align: center;margin-left: 95px">
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <span class="atonce-login" data-dismiss="modal">已有账号？点此立刻登录</span>
+                                                                    </form>
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                                                                    <button type="button" class="btn btn-primary registbtn">注册</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10 col-sm-12 hidden-xs">
+                            <div class="row"><h2>特色菜</h2></div>
+                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner" role="listbox" style="width: 80%; margin: auto">
+
+                                    <div class="item active">
+                                        <img src="../static/image/IMG_7262.jpg" alt="..." class="imgslide">
+                                        <div class="carousel-caption">
+                                            专属于你,家的味道
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Controls -->
+                                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</div>
+</div>
+<!--底部-->
+<div>
+    <div class="footer">
+        <ul>
+            <li>
+            <span>
+                关于我们
+            </span>
+                <ul>
+                    <li><a href="aboutAs.html">米农网简介</a></li>
+                    <li><a href="aboutTeam.html">rainbow简介</a></li>
+                    <li>联系我们</li>
+                    <li>合作伙伴</li>
+                </ul>
+            </li>
+            <li>
+            <span>
+                加入米农
+            </span>
+                <ul>
+                    <li>招聘职位</li>
+                </ul>
+            </li>
+            <li>
+            <span>
+                网络条款
+            </span>
+                <ul>
+                    <li>会员条款</li>
+                    <li>社区指南</li>
+                    <li>版权声明</li>
+                    <li>免责声明</li>
+                </ul>
+            </li>
+            <li>
+            <span>
+                帮助中心
+            </span>
+                <ul>
+                    <li>新手上路</li>
+                    <li>使用帮助</li>
+                    <li>网站地图</li>
+                    <li>旅行工具</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="footer-last"></div>
+</div>
+<script src="../static/clicet.js"></script>
+<!--<script src="../static/js/index.js"></script>-->
+<script src="../static/js/login.js"></script>
+<script src="../static/js/showIndexPic.js"></script>
+
+
+
+</body>
+</html>

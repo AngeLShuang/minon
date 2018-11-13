@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>米农|小吃详情页</title>
+    <script src="../static/js/uuconf.js"></script>
+    <link rel="icon" href="../static/images/logo.ico" type="image/x-icon"/>
+    <script src="../static/js/jquery-1.12.4.min.js"></script>
+    <script src="../static/js/bootstrap.js"></script>
+    <script src="../static/js/qiniu.min.js"></script>
+    <link rel="stylesheet" href="../static/css/bootstrap.css">
+    <link rel="stylesheet" href="../static/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../static/css/xiangqing.css">
+    <link rel="stylesheet" href="../static/css/cb.css">
+
+
+    <script src="../static/node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="../static/node_modules/sweetalert2/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="../static/css/navcss.css">
+
+    <!-- Include a polyfill for ES6 Promises (optional) for IE11 and Android browser -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
+
+</head>
+<body>
+<!--导航栏-->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../index.html"><img src="../static/images/llll.png"
+                                                                      class="logo"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="allRecipes.html">小吃大全</a></li>
+                        <li><a class="dongtai">动态</a></li>
+                        <li><a href="#">商城</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"></a></li>
+                        <li class="dropdown" style="background-color:black;color:white;display: none">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false"><span>安歌</span><img
+                                    src="../static/image/userHead.jpeg"
+                                    class="img-circle"><span
+                                    class="caret"></span></a>
+                            <ul class="dropdown-menu" style="background-color:black;color:white;">
+                                <li><a class="publishDynamic">发布动态</a></li>
+                                <li><a class="cookbookfabu">发布菜谱</a></li>
+                                <li><a class="personnal">个人中心</a></li>
+                                <li><a href="changeStep.html">消息反馈<span class="ns"></span></a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#" class="outlogin">退出账号</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../index.html">登录</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-right">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="请输入您要搜索的关键字">
+                        </div>
+                        <button type="submit" class="btn" style="background-color: lightgrey;color: white;"><a
+                                href="search.html">搜索</a></button>
+                    </form>
+                </div><!-- /.navbar-collapse -->
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+    </div><!-- /.container-fluid -->
+</nav>
+<!--导航栏结束-->
+<div class="container" style="margin-top: 10px;">
+    <div class="body-content">
+        <ul>
+            <li><a href="../index.html">首页</a></li>
+            >
+            <li><a href="allRecipes.html">小吃大全</a></li>
+            >
+        </ul>
+        <div class="content">
+            <div class="jianjie-content" style="background-color: lightgrey">
+                <div class="jianjie-img">
+                    <img src="http://site.meishij.net/r/117/242/1123117/s1123117_71437.jpg" alt="图片">
+                </div>
+                <div class="jianjie">
+                    <div class="jianjie-top">
+                        <div class="caipu-name">无油版可乐鸡翅</div>
+                        <div class="caipu-collect">
+                            <div class="collect"><span class="c">收藏</span> <span class="n">0</span></div>
+                            <div>分享到</div>
+                        </div>
+                    </div>
+                    <div class="jianjie-main">
+                        <ul>
+                            <li>
+                                地区
+                                <div>
+                                    华东
+                                </div>
+                            </li>
+                            <li>
+                                工艺
+                                <div>
+                                    炒
+                                </div>
+                            </li>
+                            <li>
+                                口味
+                                <div>
+                                    酸甜味
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="jianjie-footer">
+                        <div class="upload-user change">
+                            <div class="upload-img">
+                                <img src="https://s1.st.meishij.net/user/117/242/t1123117_35029.jpg" alt="">
+                            </div>
+                            <div class="upload-message">
+                                    <span>
+                                        <a class="usernickname">朵云3602</a>
+                                    </span>
+                                <span>
+                                        <a name="caipu">菜谱：238</a>　/　
+                                    <a class="guanzhunum"><span>关注：25</span></a>
+                                    　/　
+                                    <a class="fansnum"><span>粉丝：6457</span></a>
+                                    </span>
+                                <span>
+                                        <span>2014-07-23　/　</span>
+                                        <span>45032 人看过</span>
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-buchou">
+            <div class="buzhou">
+                <div class="materials">
+                    <p>
+                        "　　近两天多家餐饮业用变质肉的事件被曝光，这也更加坚定我们煮妇们自己动手的信念，起码买来的食材可以看着是新鲜的，做出的味道是家人喜欢的。今天把可乐鸡翅做成了无油版的，用不粘锅真的很方便，做出的成品鲜香不油腻，大受家里的小朋友喜欢。
+                        "</p>
+                    <span>用料</span>
+                    <div class="zhuliao-div">
+                        <h3>主料</h3>
+                        <ul class="zhuliao">
+                            <li>
+                                <div class="food-img">
+                                    <img src="http://images.meishij.net/p/20121107/80f1e7c055d6293885cfc7f7036a2bde_60x60.jpg"
+                                         alt="">
+                                </div>
+                                <span class="xinxi">
+                                        <span>
+                                            <a href="shicainew.html">鸡翅中</a>
+                                            <span>450g</span>
+                                        </span>
+                                    </span>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="fuliao-div">
+                        <ul class="fuliao">
+                            <li>
+                                <a href="shicainew.html">可乐</a>
+                                <span>200毫升</span>
+                            </li>
+                            <li>
+                                <a href="shicainew.html">姜</a>
+                                <span>1小块</span>
+                            </li>
+                            <li>
+                                <a href="shicainew.html">生抽</a>
+                                <span>1/4茶匙</span>
+                            </li>
+                            <li>
+                                <a href="shicainew.html">料酒</a>
+                                <span>1/2茶匙</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="jutibuzhou">
+                    <div class="buzhou-top">
+                            <span>
+                                无油版可乐鸡翅的做法
+                            </span>
+                    </div>
+
+                    <div class="buzouzong">
+
+                        <div class="buzhou-content">
+                            <span>1.</span>
+                            <div>
+                                <p>鸡中翅洗净，在反面划两刀，加入姜丝和料酒抓匀腌10分钟</p>
+                                <div class="xianshix">显示详情</div>
+                                <div class="img-buzhou">
+                                    <img src="https://s1.st.meishij.net/rs/117/242/1123117/n1123117_67578.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="mythink">
+                                我的想法
+                            </div>
+                            <div class="motaixiugai">
+                                <div class="inner">
+                                    <textarea name="" cols="30" rows="5" placeholder="请输入步骤"></textarea>
+                                    <div class="u">
+                                        <div class="bimg">
+                                            <input type="file" class="upimg">
+                                            <img class="imgimg"
+                                                 src="https://s1.st.meishij.net/rs/44/110/4152544/n4152544_153259805303350.jpg"
+                                                 alt="上传图片">
+                                        </div>
+                                        <div class="btndiv">
+                                            <button class="btnup">
+                                                确定
+                                            </button>
+                                        </div>
+                                        <div class="result">
+                                            <h4>我们已录入您的想法，我们会认真仔细审核您的想法，当审核人员 审核通过后会显示到页面，感谢您的参与</h4>
+                                            <div class="result-inner">
+                                                <button class="resbtn">
+                                                    我知道了
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--底部-->
+<div>
+    <div class="footer ff">
+        <ul>
+            <li>
+            <span>
+                关于我们
+            </span>
+                <ul>
+                    <li><a href="aboutAs.html">米农网简介</a></li>
+                    <li><a href="aboutTeam.html">rainbow简介</a></li>
+                    <li>联系我们</li>
+                    <li>合作伙伴</li>
+                </ul>
+            </li>
+            <li>
+            <span>
+                加入米农
+            </span>
+                <ul>
+                    <li>招聘职位</li>
+                </ul>
+            </li>
+            <li>
+            <span>
+                网络条款
+            </span>
+                <ul>
+                    <li>会员条款</li>
+                    <li>社区指南</li>
+                    <li>版权声明</li>
+                    <li>免责声明</li>
+                </ul>
+            </li>
+            <li>
+            <span>
+                帮助中心
+            </span>
+                <ul>
+                    <li>新手上路</li>
+                    <li>使用帮助</li>
+                    <li>网站地图</li>
+                    <li>旅行工具</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="footer-last"></div>
+</div>
+<script src="../static/clicet.js"></script>
+<script src="../static/js/showclickedfood.js"></script>
+<script src="../static/js/xiangqingshou.js"></script>
+<script src="../static/js/changenav.js"></script>
+<script src="../static/js/outlogin.js"></script>
+</body>
+</html>

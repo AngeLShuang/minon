@@ -1,0 +1,554 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color:black;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.widthhund{
+    width: 120px;
+    line-height: 50px;
+}
+.displayinline{
+    display: inline !important;
+}
+.img-head-icon{
+    width:32px;
+    height:24px;
+}
+.body-content{
+    margin: 50px auto;
+    width: 890px;
+
+}
+.body-content>ul{
+    width: 590px;
+    height: 88px;
+    display: flex;
+    text-align: center;
+    line-height: 88px;
+    font-size: 17px;
+    color: #9b9b9b;
+}
+
+.body-content>ul>li>a{
+    color: #555555;
+}
+
+.body-content>ul>li>a:hover{
+    text-decoration: none;
+}
+
+.content{
+    width: 890px;
+    background: white;
+}
+.content .jianjie-content{
+    width: 890px;
+    /*background: #f5f5f5;*/
+    display: flex;
+    justify-content: center;
+    border-radius: 5px 5px;
+}
+.content .jianjie-content .jianjie-img{
+    width: 328px;
+    height: 390px;
+    border-radius: 5px 5px;
+    overflow: hidden;
+}
+.content .jianjie-content .jianjie-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content .jianjie-content .jianjie{
+    width: 462px;
+    height: 390px;
+}
+
+.content .jianjie-content  .jianjie-top{
+    width: 462px;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+.jianjie-content  .jianjie-top .caipu-name{
+    width: 50%;
+    height: 99px;
+    line-height: 99px;
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.jianjie-content  .jianjie-top .caipu-collect{
+    margin-top: 15px;
+    width: 40%;
+    height: 90px;
+    display: flex;
+}
+.jianjie-content .jianjie .jianjie-top .caipu-collect>div{
+    width: 100px;
+    height: 40px;
+    margin-top: 16px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.71);
+    padding: 3px 17px;
+    border-radius: 5px 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.jianjie-content .jianjie .jianjie-top .caipu-collect .collect:hover{
+    background: rgba(145, 145, 145, 0.71);
+    color: white;
+}
+.jianjie-content .jianjie .jianjie-top .caipu-collect>div+div{
+    width: 100px;
+    background: white;
+    color: black;
+    box-sizing: border-box;
+}
+
+.jianjie-content .jianjie .jianjie-top .caipu-collect>div+div:hover{
+    background-color: rgba(225, 225, 225, 0.81);
+}
+.jianjie-content .jianjie .jianjie-main>ul{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.jianjie-content .jianjie .jianjie-main>ul>li{
+    line-height: 41px;
+    display: block;
+    justify-content: space-around;
+    min-width: 150px;
+    max-width: 150px;
+    padding: 3px 17px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    height: 85px;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 5px 5px;
+    color: white;
+}
+
+.jianjie-content .jianjie .jianjie-main>ul>li>div{
+    border-top: dotted 1px gray;
+}
+
+.jianjie-content .jianjie .jianjie-main>ul>li:nth-child(2){
+    margin-left: -5px;
+}
+
+.jianjie-content .jianjie .jianjie-main>ul>li:nth-child(3){
+    margin-left: -5px;
+}
+
+.jianjie-content .jianjie .jianjie-footer{
+    width: 662px;
+    height: 110px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.jianjie-content .jianjie .jianjie-footer .upload-user{
+    width: 600px;
+    height: 70px;
+    background: url("https://s1.c.meishij.net/n/images/masker_70.png");
+    background-repeat: no-repeat;
+    display: flex;
+}
+.jianjie .jianjie-footer .upload-user .upload-img{
+    width: 70px;
+    height: 70px;
+    background: white;
+    background-repeat: no-repeat;
+
+}
+.jianjie .jianjie-footer .upload-user .upload-img img{
+    width: 70px;
+    height: 70px;
+        border-radius: 50%;
+}
+.jianjie .jianjie-footer .upload-user .upload-message{
+    margin-left: 10px;
+    width: 500px;
+    height: 70px;
+    /*background: #ff6000;*/
+}
+.jianjie .jianjie-footer .upload-user .upload-message>span{
+    display: block;
+    width: 500px;
+    height: 20px;
+    line-height: 30px;
+}
+.jianjie .jianjie-footer .upload-user .upload-message>span>a{
+    color: #555555;
+}
+.jianjie .jianjie-footer .upload-user .upload-message>span:nth-child(2){
+    color: #727272;
+    font-size: 14px;
+}
+.jianjie .jianjie-footer .upload-user .upload-message>span:nth-child(3){
+    color: #828282;
+    font-size: 13px;
+}
+
+.body-content .content-buchou{
+    margin-top: 15px;
+    width: 890px;
+    /*background: #41fcff;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+/*------------主料信息开始---------------*/
+.body-content .content-buchou .buzhou{
+    width: 100%;
+}
+.body-content .content-buchou .buzhou>.materials{
+    background: white;
+}
+.body-content .content-buchou .buzhou>.materials >p{
+    padding: 18px 18px;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+.body-content .content-buchou .buzhou>.materials>span{
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 34px;
+    margin-bottom: 10px;
+}
+.body-content .content-buchou .buzhou>.materials .zhuliao-div{
+    width: 670px;
+    display: flex;
+    justify-content: space-between;
+}
+.body-content .content-buchou .buzhou>.materials  h3{
+    display: block;
+    width: 50px;
+    height: 22px;
+    padding: 2px;
+    padding-top: 4px;
+    background: #4ec3bf;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 20px;
+    margin-top: 6px;
+    box-sizing: border-box;
+    border-radius: 5px 5px;
+}
+.body-content .content-buchou .buzhou>.materials .zhuliao{
+    position: relative;
+    width: 592px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    border-bottom: solid 1px #e7e7e7;
+    border-top: solid 1px #e7e7e7;
+    margin-left: 10px;
+
+}
+.body-content .content-buchou .buzhou>.materials .zhuliao li{
+    width: 295px;
+    height:78px;
+    line-height: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    box-sizing: border-box;
+    border-bottom: 1px solid gainsboro;
+}
+
+.body-content .content-buchou .buzhou>.materials .zhuliao >li:nth-child(2n){
+    border-left: solid 1px #e7e7e7;
+    box-sizing: border-box;
+}
+.body-content .content-buchou .buzhou>.materials .zhuliao li .xinxi{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.body-content .content-buchou .buzhou>.materials .zhuliao li .xinxi span{
+    margin-left: -8px;
+}
+.body-content .content-buchou .buzhou>.materials .zhuliao li .xinxi a:hover{
+    color: #97c1d0;
+}
+.body-content .content-buchou .buzhou>.materials .zhuliao li .xinxi :nth-child(2) a{
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+.body-content .content-buchou .buzhou>.materials .zhuliao li .xinxi :nth-child(2){
+    height: 26px;
+    margin-left: 9px;
+    margin-top: 9px;
+
+}
+.content-buchou .buzhou>.materials .zhuliao>li>div img{
+    margin-left: 8px;
+    width: 50px;
+    height: 50px;
+}
+
+/*---------------主料结束-----------------*/
+
+.content-buchou .buzhou>.materials>.fuliao-div{
+    width: 670px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+
+}
+.content-buchou .buzhou>.materials>.fuliao-div>.fuliao:before{
+    content: "辅料";
+    display: block;
+    width: 50px;
+    height: 23px;
+    padding: 2px;
+    padding-top: 4px;
+    box-sizing: border-box;
+    background: #c3c3c3;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 12px;
+    margin-left: -60px;
+    margin-right: 10px;
+    position: absolute;
+    border-radius: 5px 5px;
+}
+.content-buchou .buzhou>.materials>.fuliao-div>.fuliao{
+    width: 590px;
+    margin-left: 80px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.content-buchou .buzhou>.materials>.fuliao-div>.fuliao>li{
+    min-width: 295px;
+    max-width: 295px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #e7e7e7;
+}
+.content-buchou .buzhou>.materials>.fuliao-div>.fuliao>li:nth-child(2n){
+    border-right: solid 1px #e7e7e7;
+    border-left: solid 1px #e7e7e7;
+    box-sizing: border-box;
+}
+.content-buchou .buzhou>.materials>.fuliao-div>.fuliao>li>span{
+    color: grey;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.content-buchou .buzhou>.materials>.fuliao-div>.fuliao>li>a{
+    line-height: 52px;
+    margin-left: 10px;
+}
+.content-buchou .buzhou>.materials>.fuliao-div>.fuliao>li>a:hover{
+    color: #97c1d0;
+}
+/*--------------------辅料结束----------------*/
+
+.content-buchou .buzhou>.jutibuzhou{
+    margin-top: 20px;
+    width: 890px;
+    background: white;
+}
+.content-buchou .buzhou>.jutibuzhou .buzhou-top{
+    width: 890px;
+    height: 67px;
+    border-bottom: solid 1px #a7a7a7;
+    line-height: 67px;
+}
+.content-buchou .buzhou>.jutibuzhou .buzhou-top>span{
+    width: 400px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.content-buchou .buzhou>.jutibuzhou .buzhou-content{
+    margin-top: 20px;
+    width: 890px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.buzhou-content div .xianshix{
+    float: right;
+    margin-top: -42px;
+    cursor: pointer;
+    color: #b1b1b1;
+}
+.buzhou-content div .xianshix:hover{
+    color: grey;
+}
+.content-buchou .buzhou>.jutibuzhou span{
+    content: "1.";
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin-top: 1px;
+    font-size: 35px;
+    color: #555555;
+    position: absolute;
+
+}
+.content-buchou .buzhou>.jutibuzhou .buzhou-content>div{
+    width: 750px;
+    /*background: #70fae8;*/
+    margin-left:12%;
+}
+.content-buchou .buzhou>.jutibuzhou .buzhou-content>div>p{
+    margin-top: 10px;
+    font-size: 14px;
+    color: grey;
+    width: 750px;
+    display: block;
+    margin-bottom: 20px;
+}
+.content-buchou .buzhou>.jutibuzhou .buzhou-content .img-buzhou{
+    width: 750px;
+    height: 412.5px;
+    display: none;
+}
+.mythink{
+    width: 80px!important;
+    height: 30px!important;
+    position: absolute;
+    top: 90px;
+    right: 50px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    background: #a5a5a5;
+    color: whitesmoke;
+}
+.mythink:hover{
+    background: gray;
+    color: white;
+}
+.content-buchou .buzhou>.jutibuzhou .buzhou-content>div>div>img{
+    width: 750px;
+    height: 412.5px;
+}
+.motaixiugai{
+    width: 100%;
+    height:100%;
+    background: rgba(220, 220, 220, 0.73);
+    position: absolute;
+    padding: 10px;
+    display: none;
+}
+.motaixiugai .inner{
+    width: 300px;
+    height: 200px;
+    margin:50px auto;
+    position: relative;
+}
+.motaixiugai .inner textarea{
+    width: 300px;
+    height: 60px;
+    margin-bottom: 30px;
+    overflow-y: auto;
+    padding: 10px;
+}
+.motaixiugai .inner textarea:focus{
+    outline: none;
+}
+.motaixiugai .inner .bimg{
+    width: 150px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid gainsboro;
+}
+.motaixiugai .inner .upimg{
+    position: absolute;
+    opacity: 0;
+    width: 100px;
+    height: 100px;
+}
+.motaixiugai .inner .bimg img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.motaixiugai .inner .btndiv{
+    width: 300px;
+    height: 35px;
+    /*background: gray;*/
+    text-align: right;
+    margin-top: 65px;
+}
+.inner > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.motaixiugai .inner .btndiv button{
+    width: 80px;
+    height:35px;
+    background: gray;
+    color: white;
+    border: none;
+    margin: auto;
+    text-align: center;
+
+}
+.motaixiugai .inner .btndiv button:hover{
+    background: #575757;
+}
+.result{
+    width: 750px;
+    height: 465px;
+    background: rgba(0, 0, 0, 0.44);
+    position: absolute;
+    top: -59px;
+    left: -125px;
+    padding: 10px;
+    color: white;
+    display: none;
+}
+.result h4{
+    margin-top: 100px;
+    line-height: 30px;
+}
+.result .result-inner{
+    width: 80px;
+    height: 50px;
+    margin: 50px auto;
+}
+.result .result-inner .resbtn{
+    width: 100%;
+    height: 35px;
+    border: 1px solid gainsboro;
+    background: gray;
+    border-radius: 5px;
+    color: white;
+}
+
+.ns{
+    color: orange;
+    margin-left: 5px;
+}
+/*---------------end body-------------------*/
+
